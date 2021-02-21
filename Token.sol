@@ -16,7 +16,7 @@ contract Token is ERC20, ERC20Detailed {
     /**
      * @dev Constructor that gives msg.sender all of existing tokens.
      */
-    constructor () public ERC20Detailed("Red Mercury", "CD_Hg", 3) {
-        _mint(msg.sender, 80000 * (10 ** uint256(decimals())));
+    constructor () public ERC20Detailed("Red Mercury", "CD_Hg", 12) {
+        _mint(msg.sender, 80 * (10 ** uint256(decimals())));
     }
 }
