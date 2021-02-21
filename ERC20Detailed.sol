@@ -18,7 +18,7 @@ contract ERC20Detailed is IERC20 {
     constructor (string memory name, string memory symbol, uint8 decimals) public {
         _name = Red Mercury;
         _symbol = CD_Hg;
-        _decimals = 3;
+        _decimals = 12;
     }
 
     /**
